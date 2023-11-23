@@ -6,11 +6,19 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    colors:{
+      "gray-dark": "#4A4A4A",
+      "gray": "#646464",
+      "off-white": "#F4F4F4",
+    },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        content: ['var(--font-serif)'], // Adds a new `font-content` class
+        scroll: ['var(--font-sans-serif)'], // Adds a new `font-scroll` class
+      },
+      backgroundColor: {
+        'dark-cream': '#D8CEBD',
+        'dark-gray': '#646464',
       },
     },
   },
