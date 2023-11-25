@@ -1,10 +1,13 @@
 import {
   FacetimePage,
   IntroPage,
+  LastPage,
+  NoRegretPage,
   ParagraphPage,
   PicturePageCover,
   PicturePageSection,
   SectionTitlePage,
+  SoMuchMorePage,
   TwoPicPage,
 } from '@/components';
 
@@ -18,6 +21,9 @@ const Page = () => {
       <TwoPicPage />
       <SectionTitlePage />
       <FacetimePage />
+      <SoMuchMorePage />
+      <NoRegretPage />
+      <LastPage />
     </>
   );
 };

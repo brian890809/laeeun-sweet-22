@@ -1,7 +1,10 @@
 export { FacetimePage } from './FacetimePage';
 export { IntroPage } from './IntroPage';
+export { LastPage } from './LastPage';
+export { NoRegretPage } from './NoRegretPage';
 export { ParagraphPage } from './ParagraphPage';
 export { PicturePageCover } from './PicturePage1';
 export { PicturePageSection } from './PicturePage2';
 export { SectionTitlePage } from './SectionTitlePage';
+export { SoMuchMorePage } from './SoMuchMorePage';
 export { TwoPicPage } from './TwoPicPage';
