@@ -1,1 +1,7 @@
 export {IntroPage} from './IntroPage'
+export {PicturePageCover } from './PicturePage1'
+export {PicturePageSection } from './PicturePage2'
+export {ParagraphPage } from './ParagraphPage'
+export {TwoPicPage} from './TwoPicPage'
+export {SectionTitlePage} from './SectionTitlePage'
+export {FacetimePage} from './FacetimePage'
