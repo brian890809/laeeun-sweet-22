@@ -1,1 +1,1 @@
-export {default as SectionTitlePage} from './SectionTitlePage'
+export { default as SectionTitlePage } from './SectionTitlePage';

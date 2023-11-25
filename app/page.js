@@ -1,17 +1,25 @@
-import { IntroPage, PicturePageCover, ParagraphPage, PicturePageSection, TwoPicPage, SectionTitlePage, FacetimePage } from "@/components"
+import {
+  FacetimePage,
+  IntroPage,
+  ParagraphPage,
+  PicturePageCover,
+  PicturePageSection,
+  SectionTitlePage,
+  TwoPicPage,
+} from '@/components';
 
 const Page = () => {
   return (
     <>
-      <IntroPage/>
-      <PicturePageCover/>
-      <ParagraphPage/>
-      <PicturePageSection/>
-      <TwoPicPage/>
-      <SectionTitlePage/>
-      <FacetimePage/>
+      <IntroPage />
+      <PicturePageCover />
+      <ParagraphPage />
+      <PicturePageSection />
+      <TwoPicPage />
+      <SectionTitlePage />
+      <FacetimePage />
     </>
-  )
-}
+  );
+};
 
-export default Page
+export default Page;

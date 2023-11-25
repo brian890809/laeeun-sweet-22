@@ -1,1 +1,1 @@
-export {default as FacetimePage} from './FacetimePage'
+export { default as FacetimePage } from './FacetimePage';

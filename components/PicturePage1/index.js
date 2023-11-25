@@ -1,1 +1,1 @@
-export {default as PicturePageCover} from './PicturePage1'
+export { default as PicturePageCover } from './PicturePage1';

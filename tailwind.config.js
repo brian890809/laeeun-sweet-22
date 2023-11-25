@@ -7,10 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{
-        "gray-dark": "#4A4A4A",
-        "gray": "#646464",
-        "off-white": "#F4F4F4",
+      colors: {
+        'gray-dark': '#4A4A4A',
+        gray: '#646464',
+        'off-white': '#F4F4F4',
       },
       fontFamily: {
         content: ['var(--font-serif)'], // Adds a new `font-content` class
@@ -23,4 +23,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};

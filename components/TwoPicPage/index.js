@@ -1,1 +1,1 @@
-export {default as TwoPicPage} from './TwoPicPage'
+export { default as TwoPicPage } from './TwoPicPage';

@@ -1,1 +1,1 @@
-export const title = 'THE UNFORGETABLE MEMORIES WE SHARE'
+export const title = 'THE UNFORGETABLE MEMORIES WE SHARE';

@@ -1,1 +1,1 @@
-export {default as ParagraphPage} from './ParagraphPage'
+export { default as ParagraphPage } from './ParagraphPage';

@@ -1,1 +1,1 @@
-export {default as PicturePageSection} from './PicturePage2'
+export { default as PicturePageSection } from './PicturePage2';

@@ -1,1 +1,1 @@
-export {default as PicturePageBase } from './PicturePage'
+export { default as PicturePageBase } from './PicturePage';
