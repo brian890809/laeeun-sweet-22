@@ -4,9 +4,9 @@ const NoRegretPage = () => {
   return (
     <div className="bg-dark-gray h-screen flex flex-col justify-between">
       <div>
-        {contentList.map((content) => (
+        {contentList.map((content, i) => (
           <div
-            key="1"
+            key={i}
             className="text-center text-lg 6 text-off-white mx-auto mt-[28px] first:mt-[35vh]"
           >
             {content}

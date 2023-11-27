@@ -7,8 +7,8 @@ const FacetimePage = () => {
         {content.ofc}
       </div>
       <div className="mt-5">
-        {content.contentList.map((content) => (
-          <div key="1" className="text-center text-lg text-gray-dark mx-auto">
+        {content.contentList.map((content, i) => (
+          <div key={i} className="text-center text-lg text-gray-dark mx-auto">
             {content}
           </div>
         ))}
