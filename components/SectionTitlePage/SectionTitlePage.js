@@ -73,7 +73,7 @@ const SectionTitlePage = () => {
       <div className="text-center text-lg leading-10 text-gray-dark mx-auto mt-[35vh] w-[223px] sm:w-screen">
         {title}
       </div>
-      <div className="mx-auto">
+      <div className="mx-auto mb-10">
         <div ref={firstRef}>
           <CurvedLine id="first" />
         </div>

@@ -3,6 +3,7 @@ const PicturePageBase = ({
   imgSrc = '',
   imgTransformationStyles = '',
   customStyles = '',
+  ...props
 }) => {
   return (
     <div
@@ -13,6 +14,7 @@ const PicturePageBase = ({
         fill
         alt="picture"
         className="object-cover overflow-hidden"
+        {...props}
       />
     </div>
   );

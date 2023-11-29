@@ -1,10 +1,15 @@
 export { FacetimePage } from './FacetimePage';
 export { IntroPage } from './IntroPage';
 export { LastPage } from './LastPage';
+export { Napa } from './NapaPage';
 export { NoRegretPage } from './NoRegretPage';
+export { NYC } from './NycPage';
 export { ParagraphPage } from './ParagraphPage';
 export { PicturePageCover } from './PicturePage1';
 export { PicturePageSection } from './PicturePage2';
 export { SectionTitlePage } from './SectionTitlePage';
+export { SF } from './SfPage';
 export { SoMuchMorePage } from './SoMuchMorePage';
 export { TwoPicPage } from './TwoPicPage';
+export { VanNess } from './VanNessPage';
+export { Yosemite } from './YosemitePage';

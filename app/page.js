@@ -5,13 +5,18 @@ import {
   FacetimePage,
   IntroPage,
   LastPage,
+  Napa,
   NoRegretPage,
+  NYC,
   ParagraphPage,
   PicturePageCover,
   PicturePageSection,
   SectionTitlePage,
+  SF,
   SoMuchMorePage,
   TwoPicPage,
+  VanNess,
+  Yosemite,
 } from '@/components';
 
 const easingFunction = (x) => -(Math.cos(Math.PI * x) - 1) / 2;
@@ -28,6 +33,11 @@ const Page = () => {
       <PicturePageSection />
       <TwoPicPage />
       <SectionTitlePage />
+      <NYC />
+      <SF />
+      <Yosemite />
+      <Napa />
+      <VanNess />
       <FacetimePage />
       <SoMuchMorePage />
       <NoRegretPage />
