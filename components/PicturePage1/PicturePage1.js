@@ -4,7 +4,6 @@ import { useEffect, useRef } from 'react';
 
 import { Rectangle1 } from '@/assets';
 
-import { PicturePageBase } from '../PicturePageBase';
 import { imageSource } from './content';
 
 const PicturePage1 = () => {
@@ -32,12 +31,9 @@ const PicturePage1 = () => {
   });
 
   return (
-    <>
-      <PicturePageBase imgSrc={imageSource} customStyles="h-[80vh]" />
-      <div className="bg-dark-cream relative h-[80vh]" ref={rectangleRef}>
-        <Rectangle1 imgSrc={imageSource} id="rectangle" />
-      </div>
-    </>
+    <div className="bg-dark-cream relative h-[80vh]" ref={rectangleRef}>
+      <Rectangle1 imgSrc={imageSource} id="rectangle" />
+    </div>
   );
 };
 // {
