@@ -1,5 +1,5 @@
 const imgStyleBase = {
-  position: 'absolute',
+  margin: 'auto',
   objectFit: 'cover',
 };
 

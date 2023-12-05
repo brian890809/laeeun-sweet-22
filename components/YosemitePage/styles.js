@@ -1,7 +1,6 @@
 const imgStyleBase = {
-  position: 'relative',
-  marginLeft: 'auto',
-  marginRight: 'auto',
+  margin: 'auto',
+  objectFit: 'cover',
 };
 
 export const img1Styles = {
