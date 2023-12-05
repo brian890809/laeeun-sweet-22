@@ -2,7 +2,7 @@ import * as content from './content';
 
 const FacetimePage = () => {
   return (
-    <div className="bg-dark-cream h-screen flex flex-col">
+    <div className="bg-dark-cream h-[95vh] flex flex-col">
       <div className="text-center text-lg leading-10 text-gray-dark mx-auto mt-[35vh]">
         {content.ofc}
       </div>

@@ -19,70 +19,51 @@ const VnPage = () => {
       .timeline({
         scrollTrigger: {
           trigger: leftElement,
-          start: 'top 90%', // when the top of the trigger hits the top of the viewport
-          end: 'top 40%', // end after scrolling 500px beyond the start
-          scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+          start: 'top 90%',
+          end: 'top 20%',
+          scrub: 1,
         },
       })
       .to(leftElement, {
-        x: 100,
+        y: 100,
       });
     gsap
       .timeline({
         scrollTrigger: {
           trigger: rightElement,
-          start: 'top 90%', // when the top of the trigger hits the top of the viewport
-          end: 'top 40%', // end after scrolling 500px beyond the start
-          scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+          start: 'top 90%',
+          end: 'top 40%',
+          scrub: 1,
         },
       })
       .to(rightElement, {
-        x: -100,
+        y: -100,
       });
   });
-  // useEffect(() => {
-  //   const element = rightRef.current;
-  //   const rectangle4 = element.querySelector('#rectangle4');
-  //   const path = element.querySelector('path.path-anim');
-  //   const destPath = path.dataset.pathTo;
-  //   gsap
-  //     .timeline({
-  //       scrollTrigger: {
-  //         trigger: rectangle4,
-  //         start: 'top 90%',
-  //         end: 'bottom 95%',
-  //         scrub: true,
-  //       },
-  //     })
-  //     .to(path, {
-  //       ease: 'none',
-  //       attr: { d: destPath },
-  //     });
-  // });
   return (
     <Container>
       <div className="text-center text-lg leading-10 text-off-white w-max px-2 translate-x-[-50%] left-2/4 top-[35vh] absolute z-10 bg-neutral-500/30">
         {vn}
       </div>
-      <div className="relative flex flex-wrap justify-normal">
-        <Image
-          ref={leftRef}
-          id="laeeunLeft"
-          style={styles.img1Styles}
-          src={img1}
-          width={248}
-          height={305}
-          alt="img1"
-        />
-        <Image
-          ref={rightRef}
-          id="bohanRight"
-          style={styles.img2Styles}
-          src={img2}
-          width={248}
-          height={305}
-          alt="img2"
-        />
+      <div className="grid grid-rows-2 grid-cols-2 h-full items-center">
+        <div className="w-[75%] h-[95%] relative mx-auto">
+          <Image
+            ref={leftRef}
+            style={styles.img1Styles}
+            src={img1}
+            fill
+            alt="img1"
+          />
+        </div>
+        <div className="w-[75%] h-[95%] row-end-3 col-end-3 relative mx-auto">
+          <Image
+            ref={rightRef}
+            style={styles.img2Styles}
+            src={img2}
+            fill
+            alt="img2"
+          />
+        </div>
       </div>
     </Container>
   );
