@@ -1,5 +1,18 @@
 export const title = 'YOU ARE THE APPLE OF MY EYE';
 export const topPic =
   'https://lh3.googleusercontent.com/pw/ADCreHcMefAiZO56HYcFAgUxh0KgJyUZM1z-xk6fuq-my46a_gpSV1I59GByGmtCu9gLNxI4JsqZBgUI433GO4Ns9QEmbPcNBKIivYhtoilSB82sW2_LdA4qQbOu1fcsWWeU0xOqPLByEyjyq68NT6YTRkadYA=w2374-h1574-s-no';
+
+export const topPicPath =
+  'M 349 0 L 349 284 C 207 284 134 284 -1 284 L 0 0 C 138 0 213 0 349 0 Z';
+
+export const topPicPathTo =
+  'M349 0L349 284C207.894 321.688 131.472 321.095 -1.2414e-05 284L0 -1.52553e-05C136.295 33.1411 212.709 27.5239 349 0Z';
+
 export const bottomPic =
   'https://lh3.googleusercontent.com/pw/ADCreHfHbAzQiyeVxZUSZOmuTknSg7_ps9YwMl-yA7cfNWuvRqF351NP4nybfIcyjMZII4YiiJH5LkWyrz9H50ZXySlzQmTZpFxqwAYgibKDCnATU-6yWWTpgYgP0RrQVnsxctaIWnMXMS3Sn9FtkZJsCiLJmg=w1180-h1574-s-no?authuser=0';
+
+export const bottomPicPath =
+  'M 259.157 326.746 C 163 326 110 326 13.8904 326 C 14 216 14 151 14 27 C 102 27 156.593 27 260 26 C 260 140 260 206 259.157 326.746 Z';
+
+export const bottomPicPathTo =
+  'M259.157 326.746C161.976 351.014 108.265 351.155 13.8904 326.746C-4.66704 216.176 -4.59312 150.221 13.8904 25.647C102.382 -9.77516 156.593 -7.3004 259.157 25.647C283.061 139.211 285.472 204.729 259.157 326.746Z';

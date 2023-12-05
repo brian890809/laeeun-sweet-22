@@ -8,6 +8,5 @@ export const img1Styles = {
   ...imgStyleBase,
 };
 export const img2Styles = {
-  // ...imgStyleBase,
-  objectFit: 'cover',
+  ...imgStyleBase,
 };

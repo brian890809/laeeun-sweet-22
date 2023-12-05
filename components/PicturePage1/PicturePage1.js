@@ -11,14 +11,13 @@ const PicturePage1 = () => {
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
     const element = rectangleRef.current;
-    const line = element.querySelector('#reactangle');
+    const rectangle = element.querySelector('#rectangle1');
     const path = element.querySelector('path.path-anim');
     const destPath = path.dataset.pathTo;
-    console.log(destPath);
     gsap
       .timeline({
         scrollTrigger: {
-          trigger: line,
+          trigger: rectangle,
           start: 'top 70%',
           end: 'bottom 70%',
           scrub: true,
@@ -32,12 +31,9 @@ const PicturePage1 = () => {
 
   return (
     <div className="bg-dark-cream relative h-[80vh]" ref={rectangleRef}>
-      <Rectangle1 imgSrc={imageSource} id="rectangle" />
+      <Rectangle1 imgSrc={imageSource} id="rectangle1" />
     </div>
   );
 };
-// {
-//   return <PicturePageBase imgSrc={imageSource} customStyles="h-[80vh]" />;
-// };
 
 export default PicturePage1;

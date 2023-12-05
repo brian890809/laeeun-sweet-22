@@ -18,9 +18,14 @@ const YosePage = () => (
         height={441}
         alt="img1"
       />
-      <div className="w-[188px] h-[291px] relative mx-auto">
-        <Image style={styles.img2Styles} src={img2} fill alt="img2" />
-      </div>
+      <Image
+        style={styles.img2Styles}
+        src={img2}
+        width={240}
+        height={360}
+        alt="img2"
+      />
+      {/* <div className="w-[240px] h-[350px] relative mx-auto"></div> */}
     </div>
   </Container>
 );
