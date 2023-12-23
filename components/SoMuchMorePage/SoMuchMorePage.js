@@ -66,7 +66,7 @@ const SoMuchMore = () => {
       pinSpacing: true,
     });
     // tl.fromTo(section2, { y: '100vh' }, { y: '0', ease: 'power1.inOut' }, 0);
-    tl.fromTo(box2, { y: '90vh' }, { y: 0, duration: 1, ease: 'power1.inOut' });
+    tl.fromTo(box2, { y: '90vh' }, { y: 0, duration: 1, ease: 'none' }, '>');
 
     return () => {
       gsap.ticker.remove(update);
@@ -89,7 +89,7 @@ const SoMuchMore = () => {
         </div>
       </section>
       {/* <section className="section2 flex flex-col w-full h-full items-center justify-center">
-        <ImageList id="imgList" />
+        <ImageList />
       </section> */}
       <div className="mt-5">
         <div id="box2">

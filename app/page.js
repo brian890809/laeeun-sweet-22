@@ -27,7 +27,7 @@ const Page = () => {
   return (
     <ReactLenis root options={options}>
       <IntroPage />
-      {/* <PicturePageCover />
+      <PicturePageCover />
       <ParagraphPage />
       <PicturePageSection />
       <SectionTitlePage />
@@ -36,7 +36,7 @@ const Page = () => {
       <Yosemite />
       <Napa />
       <VanNess />
-      <FacetimePage /> */}
+      <FacetimePage />
       <SoMuchMorePage />
       <NoRegretPage />
       <LastPage />
