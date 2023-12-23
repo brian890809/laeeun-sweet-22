@@ -14,8 +14,14 @@ const FacetimePage = () => {
   useEffect(() => {
     const element = groupRef.current;
     const line = element.querySelector('#group');
-    const path = element.querySelector('path.path-anim');
-    const destPath = path.dataset.pathTo;
+    const path0 = element.querySelector('path.path-anim-0');
+    const path1 = element.querySelector('path.path-anim-1');
+    const path2 = element.querySelector('path.path-anim-2');
+    const path3 = element.querySelector('path.path-anim-3');
+    const destPath0 = path0.dataset.pathTo;
+    const destPath1 = path1.dataset.pathTo;
+    const destPath2 = path2.dataset.pathTo;
+    const destPath3 = path3.dataset.pathTo;
     gsap
       .timeline({
         scrollTrigger: {
@@ -25,13 +31,25 @@ const FacetimePage = () => {
           scrub: true,
         },
       })
-      .to(path, {
+      .to(path0, {
         ease: 'none',
-        attr: { d: destPath },
+        attr: { d: destPath0 },
+      })
+      .to(path1, {
+        ease: 'none',
+        attr: { d: destPath1 },
+      })
+      .to(path2, {
+        ease: 'none',
+        attr: { d: destPath2 },
+      })
+      .to(path3, {
+        ease: 'none',
+        attr: { d: destPath3 },
       });
   });
   return (
-    <div className="bg-dark-cream h-[95vh] flex flex-col">
+    <div className="bg-dark-cream h-screen flex flex-col">
       <div className="text-center text-lg leading-10 text-gray-dark mx-auto mt-[35vh]">
         {content.ofc}
       </div>
@@ -42,7 +60,7 @@ const FacetimePage = () => {
           </div>
         ))}
       </div>
-      <div ref={groupRef} className="pt-8 h-[330px]">
+      <div ref={groupRef} className="pt-8 h-[400px]">
         <SquiggleLinesGroup
           paths={content.paths}
           id="group"
