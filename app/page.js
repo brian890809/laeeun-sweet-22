@@ -14,7 +14,6 @@ import {
   SectionTitlePage,
   SF,
   SoMuchMorePage,
-  TwoPicPage,
   VanNess,
   Yosemite,
 } from '@/components';
@@ -28,17 +27,16 @@ const Page = () => {
   return (
     <ReactLenis root options={options}>
       <IntroPage />
-      <PicturePageCover />
+      {/* <PicturePageCover />
       <ParagraphPage />
       <PicturePageSection />
-      <TwoPicPage />
       <SectionTitlePage />
       <NYC />
       <SF />
       <Yosemite />
       <Napa />
       <VanNess />
-      <FacetimePage />
+      <FacetimePage /> */}
       <SoMuchMorePage />
       <NoRegretPage />
       <LastPage />

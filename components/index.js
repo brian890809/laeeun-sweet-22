@@ -1,10 +1,12 @@
 export { FacetimePage } from './FacetimePage';
+export { ImageList } from './ImageList';
 export { IntroPage } from './IntroPage';
 export { LastPage } from './LastPage';
 export { Napa } from './NapaPage';
 export { NoRegretPage } from './NoRegretPage';
 export { NYC } from './NycPage';
 export { ParagraphPage } from './ParagraphPage';
+export { Parallax } from './Parallex';
 export { PicturePageCover } from './PicturePage1';
 export { PicturePageSection } from './PicturePage2';
 export { SectionTitlePage } from './SectionTitlePage';
