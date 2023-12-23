@@ -1,6 +1,6 @@
 const SquiggleLinesGroup = ({ id, width, paths }) => (
   <svg id={id} width={width} height="100%" fill="none">
-    <g>
+    <g transform={`scale(${Math.max(width / 908, 1)}, 1)`}>
       {paths.map((pathObj, index) => (
         <path
           key={index}
