@@ -9,7 +9,7 @@ import * as imgSrc from './constants';
 const ImageList = () => {
   return (
     <>
-      <Parallax speed={-7} className="self-start">
+      <Parallax speed={-7} className="self-start" id="parallax-1">
         <Image
           src={imgSrc.photo1}
           alt="Image"
@@ -20,7 +20,7 @@ const ImageList = () => {
         />
       </Parallax>
 
-      <Parallax speed={-5} className="self-end overflow-hidden">
+      <Parallax speed={-6} className="self-end overflow-hidden" id="parallax-2">
         <Image
           src={imgSrc.photo2}
           alt="Image"
@@ -31,7 +31,7 @@ const ImageList = () => {
         />
       </Parallax>
 
-      <Parallax speed={-10} className="self-center">
+      <Parallax speed={-5} className="self-center">
         <Image
           src={imgSrc.photo3}
           alt="Image"
@@ -41,7 +41,7 @@ const ImageList = () => {
         />
       </Parallax>
 
-      <Parallax speed={-8} className="self-start">
+      <Parallax speed={-3} className="self-start">
         <Image
           src={imgSrc.photo4}
           alt="Image"
@@ -51,7 +51,7 @@ const ImageList = () => {
         />
       </Parallax>
 
-      <Parallax speed={-14} className="self-end overflow-hidden">
+      <Parallax speed={-4} className="self-end overflow-hidden">
         <Image
           src={imgSrc.photo5}
           alt="Image"
@@ -61,7 +61,7 @@ const ImageList = () => {
         />
       </Parallax>
 
-      <Parallax speed={-12} className="self-start">
+      <Parallax speed={-2} className="self-start">
         <Image
           src={imgSrc.photo6}
           alt="Image"
@@ -109,6 +109,7 @@ const ImageList = () => {
           sizes="50vw"
         />
       </Parallax>
+      {/* 
 
       <Parallax speed={-8} className="self-start">
         <Image
@@ -218,7 +219,7 @@ const ImageList = () => {
           height={400}
           sizes="50vw"
         />
-      </Parallax>
+      </Parallax> */}
     </>
   );
 };

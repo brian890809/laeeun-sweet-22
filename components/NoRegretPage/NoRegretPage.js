@@ -2,7 +2,7 @@ import { contentList } from './content';
 
 const NoRegretPage = () => {
   return (
-    <div className="bg-dark-gray h-[90vh] flex flex-col mt-[100vh]">
+    <div className="bg-dark-gray h-[90vh] flex flex-col">
       {contentList.map((content, i) => (
         <div
           key={i}

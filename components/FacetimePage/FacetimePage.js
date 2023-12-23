@@ -60,7 +60,7 @@ const FacetimePage = () => {
           </div>
         ))}
       </div>
-      <div ref={groupRef} className="pt-8 h-[400px]">
+      <div ref={groupRef} className="pt-16 h-[400px]">
         <SquiggleLinesGroup
           paths={content.paths}
           id="group"
